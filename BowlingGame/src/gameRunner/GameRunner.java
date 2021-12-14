@@ -24,10 +24,6 @@ public class GameRunner {
 		scoresList = reader.bonusRoundExecutor(scoresList);
 		scoresList = calc.calculateScore(scoresList);
 		calc.printScore(scoresList);
-		
-		//Here check if last frame is strike -> if so, add a frame, if that frame is also strike add another single chance  frame
-		//if last frame is spare add a single chance frame
-		
 		}
 		
 	}
